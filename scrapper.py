@@ -1,4 +1,3 @@
-#
 """
 Grabs a URL and evaluates it to see if it has movie data from IMBD.
 """
