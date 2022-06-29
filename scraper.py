@@ -1,3 +1,9 @@
+"""
+The program takes two input values from the user: the number of pages (an integer) and the type of articles. Then continues to process the Nature website data.
+
+The main goal is to save the articles with the correct article bodies once the program has been executed.
+"""
+
 import requests
 import os
 
