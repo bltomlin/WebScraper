@@ -9,9 +9,13 @@ link = soup.find_all('article')
 for i in link:
     if i.find_next('span', class_="c-meta__type").text == 'News':
         hrefs = (i.find("a").get("href"))
+        title = i.find('a').text
+        title = "_".join( title.split() )
+        for i in title:
+            if i == '?':
+                title = title.replace('?', '')
+        print(title)
         web_request = requests.get('https://www.nature.com' + hrefs).content
-        file = open('source.txt', 'wb')
+        file = open(title + '.txt', 'wb')
         file.write(web_request)
         file.close()
-        print('Content saved.')
-print(soup.find('p').text)
