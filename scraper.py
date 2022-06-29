@@ -40,9 +40,6 @@ for num in range(number_of_pages):  # Iterates through each page
         if i.find_next('span', class_="c-meta__type").text == article_type:
             hrefs = (i.find("a").get("href"))
             title = "_".join(i.find('a').text.split())
-            for char in title:
-                if char == '?':
-                    title = title.replace('?', '')
             web_request = 'https://www.nature.com' + hrefs
             soup = getScrapper(web_request)
             paragraph_text = soup.find_all('div', {'class': "c-article-body u-clearfix"})
