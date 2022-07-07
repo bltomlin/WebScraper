@@ -1,7 +1,7 @@
 # WebScrapper
 A program to demonstrate knowledge on sending HTTP-requests and process the responses, working with an external library, library documentation, file system management and parsing website data.
 
-#Installation
+# Installation
 
 ```
 # clone the repo
@@ -14,7 +14,7 @@ $ cd WebScraper
 $ pip install beautifulsoup4
 ```
 
-#Usage
+# Usage
 
 The program will prompt how many pages you would like to scan from nature.com's 2020 articles list.
 
