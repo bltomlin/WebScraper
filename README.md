@@ -26,25 +26,25 @@ The program will then prompt
 Enter the article type you would like results for:
 ```
 You can enter any of these types:
--Article
--Author Correction
--Book Review
--Career Column
--Comment
--Correspondence
--Editorial
--Futures
--Nature Briefing
--Nature Index
--Nature Podcast
--News
--News & Views
--News Feature
--News Round-Up
--Outlook
--Publisher Correction
--Research Highlight
--Where I Work
--World View 
+- Article
+- Author Correction
+- Book Review
+- Career Column
+- Comment
+- Correspondence
+- Editorial
+- Futures
+- Nature Briefing
+- Nature Index
+- Nature Podcast
+- News
+- News & Views
+- News Feature
+- News Round-Up
+- Outlook
+- Publisher Correction
+- Research Highlight
+- Where I Work
+- World View 
 
 The program will then scan each page for the desired article type and save the articles to a text file locally in the WebScraper directory.
